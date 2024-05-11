@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>LucasSeries</title>
 </head>
 
 <body>
-    <header>
+    <header class="container_header">
         <div>
             <h1>Stranger Things</h1>
         </div>
@@ -29,13 +31,12 @@
 
     </header>
     <main>
-        <section id="Home">
-            <article id="home_texto">
-                <br>
-                <img
-                    src="https://imgs.search.brave.com/A-wKbGQ7wCaFPQH40F2T0lpVzxTFEg0pShnlTVm1dCE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kbm0u/bmZseGltZy5uZXQv/YXBpL3Y2LzJEdVFs/eDBmTTR3ZDFuenFt/NUJGQmk2SUxhOC9B/QUFBUWJ6Y2gxaTJR/QUVQOVRzVGhQaDdh/LU9VMmUzY1o1YkhB/Z2dITE5la0V3cmtj/QVkwQzNOOU9oS05P/LVNzaTVzVlB1a0lT/QXc2dDF0YTZBMlhm/dFREUzlabS1oRmJ5/bWRqRi1zX0ZLQ1lf/eWNVb1I3X3ZMai0z/VWZIUHBBY3IxRXhY/ekloYUtSMHJhM1Nj/LUVzMXQ2dVdQdmRy/NE0uanBnP3I9OWY5">
-                <h4>Sinopse</h4>
-                <p>Situada no início dos anos 1980, Stranger Things se passa na cidade rural fictícia de Hawkins,
+        <div class="container">    
+            <div>
+                <h4 class="center">Sobre</h4>
+                <p class="center">Situada no início dos anos 1980, Stranger Things se passa na cidade rural fictícia
+                    de
+                    Hawkins,
                     Indiana. Como fachada, o laboratório da região realizava experimentos científicos para o
                     Departamento de Energia Americano, quando na realidade, os pesquisadores ali investiram em
                     experimentos com o paranormal e o sobrenatural, incluindo o uso de cobaias humanas. Não
@@ -51,27 +52,22 @@
                     e a Eleven (Millie Bobby Brown), uma peculiar menina perdida na floresta. Assim como as
                     crianças, a
                     mãe Joyce Byers (Winona Ryder) está determinada e fará o impossível para rever o filho.</p>
-                <a target="_blank" href="https://www.netflix.com/br-en/title/80057281" alt="">Assista aqui!</a>
-            </article>
-        </section>
-        <section>
+            </div>
+            <div>
+                <img
+                    src="https://imgs.search.brave.com/A-wKbGQ7wCaFPQH40F2T0lpVzxTFEg0pShnlTVm1dCE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kbm0u/bmZseGltZy5uZXQv/YXBpL3Y2LzJEdVFs/eDBmTTR3ZDFuenFt/NUJGQmk2SUxhOC9B/QUFBUWJ6Y2gxaTJR/QUVQOVRzVGhQaDdh/LU9VMmUzY1o1YkhB/Z2dITE5la0V3cmtj/QVkwQzNOOU9oS05P/LVNzaTVzVlB1a0lT/QXc2dDF0YTZBMlhm/dFREUzlabS1oRmJ5/bWRqRi1zX0ZLQ1lf/eWNVb1I3X3ZMai0z/VWZIUHBBY3IxRXhY/ekloYUtSMHJhM1Nj/LUVzMXQ2dVdQdmRy/NE0uanBnP3I9OWY5">
+            </div>
+        </div>
+        <section id="contato">
             <form action="">
-                <br>
                 <label for="">Nome:</label>
                 <input type="text" name="nome" placeholder="Digite seu nome">
-                <br>
-                <br>
 
                 <label for="email">Email:</label>
                 <input type="email" name="email" placeholder="Digite seu email">
-                <br>
-                <br>
 
                 <label for="subject">Indique:</label>
                 <input type="text" name="subject" placeholder="Digite uma serie">
-                <br>
-                <br>
-
                 <button type="submit">Enviar</button>
             </form>
         </section>

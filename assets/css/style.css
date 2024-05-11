@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightslategray;
+}
+
+.center{
+    text-align: center;
+    color: white;
+    max-width: 80%;
+    margin-left: 50px;
+    font-size: 19px;
+    
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+#contato{
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    margin-left: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: lightslategray;
+    text-align: center;
+}
+

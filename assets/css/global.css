@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
